@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Home</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="..\css\about.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  </head>
+  <body>
+    <!-- NAV BAR -->
+    <nav class="navbar navbar-inverse">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <a class="navbar-brand" href="#">Chandler Keyes</a>
+        </div>
+        <ul class="nav navbar-nav">
+          <li class="active"><a href="../html/index.html">Home</a></li>
+          <li><a href="../html/about.html">About</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <!-- JUMBOTRON -->
+    <div class="jumbotron">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-6">
+            <div class="text">
+              <h1>Chandler Keyes</h1>
+              <h3>Aspring Full Stack Developer</h3>
+              <h5>Developer, YouTuber, Video Editor, Promoter</h5>
+              <p></p>
+            </div>
+          </div>
+          <div class="col-sm-6">
+            <div class="jumbotron-image">
+              <img src="../images/aboutPic.JPG" alt="">
+            </div>
+          </div>
+        </div>
+        </div>
+      </div>
+      <section id="section1">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-2">
+            </div>
+            <div class="col-sm-8">
+              <h1>About Me</h1>
+              <br>
+              <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+            </div>
+            <div class="col-sm-2">
+            </div>
+          </div>
+        </div>
+      </section>
+      <br>
+      <br>
+      <br>
+      <!-- IMAGE SLIDER: TAKEN FROM CODE PEN -->
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-2">
+          </div>
+          <div class="col-sm-8">
+            <ul id="slides">
+            <!-- FIX ME: Put different images here -->
+            <li class="slide showing"><img src="../images/aboutPic.JPG" alt=""></li>
+            <li class="slide"><img src="../images/testImage.JPG" alt=""></li>
+            <li class="slide"><img src="../images/aboutPic.JPG" alt=""></li>
+            <li class="slide"><img src="../images/testImage.JPG" alt=""></li>
+            <li class="slide"><img src="../images/aboutPic.JPG" alt=""></li>
+            </ul>
+          </div>
+          <div class="col-sm-2">
+          </div>
+        </div>
+      </div>
+<script>
+var slides = document.querySelectorAll('#slides .slide');
+var currentSlide = 0;
+var slideInterval = setInterval(nextSlide,2000);
+
+function nextSlide() {
+    slides[currentSlide].className = 'slide';
+    currentSlide = (currentSlide+1)%slides.length;
+    slides[currentSlide].className = 'slide showing';
+}
+</script>
+
+  </body>
+</html>
