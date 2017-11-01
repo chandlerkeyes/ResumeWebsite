@@ -1,7 +1,6 @@
 body {
   background-image: url(../images/aboutBackground.JPG);
   background-size: cover;
-  background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
 }
@@ -66,3 +65,12 @@ body {
 .slide:nth-of-type(5) {
     background: purple;
 }*/
+
+/* CONTENT 1*/
+
+.content1 {
+  border: 2px solid grey;
+  padding: 50px;
+  margin: 200px;
+  text-align: center;
+}
