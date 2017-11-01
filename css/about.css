@@ -1,6 +1,7 @@
 body {
   background-image: url(../images/aboutBackground.JPG);
   background-size: cover;
+  background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
 }
@@ -66,11 +67,87 @@ body {
     background: purple;
 }*/
 
-/* CONTENT 1*/
 
+/* CONTENT 1*/
 .content1 {
-  border: 2px solid grey;
+  background-color: rgba(0,0,0,0.24);
+  border: 3px solid grey;
   padding: 50px;
   margin: 200px;
   text-align: center;
+}
+.col-sm-4 img {
+  width: 300px;
+  height: 250px;
+  border-radius: 10%;
+}
+.container h2 {
+  text-align: center;
+  font-size: 50px;
+}
+.overlay1 {
+  border-radius: 10%;
+  position: absolute;
+  bottom: 100%;
+  left: 15px;
+  right: 0;
+  background-color: #008CBA;
+  opacity: 0.7;
+  overflow: hidden;
+  width: 300px;
+  height: 0;
+  transition: .5s ease;
+}
+.overlay2 {
+  border-radius: 10%;
+  position: absolute;
+  bottom: 100%;
+  left: 15px;
+  right: 0;
+  background-color: #008CBA;
+  opacity: 0.7;
+  overflow: hidden;
+  width: 300px;
+  height: 0;
+  transition: .5s ease;
+}
+.overlay3 {
+  border-radius: 10%;
+  position: absolute;
+  bottom: 100%;
+  left: 15px;
+  right: 0;
+  background-color: #008CBA;
+  opacity: 0.7;
+  overflow: hidden;
+  width: 300px;
+  height: 0;
+  transition: .5s ease;
+}
+
+
+.image1:hover .overlay1 {
+  bottom: 0;
+  height: 100%;
+}
+.image2:hover .overlay2 {
+  bottom: 0;
+  height: 100%;
+}
+.image3:hover .overlay3 {
+  bottom: 0;
+  height: 100%;
+}
+
+.text {
+  opacity: 1;
+  white-space: nowrap;
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  overflow: hidden;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
 }
