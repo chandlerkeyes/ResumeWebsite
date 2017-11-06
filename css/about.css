@@ -43,31 +43,6 @@ body {
     opacity: 1;
     z-index: 2;
 }
-/*.slide {
-    font-size: 40px;
-    padding: 40px;
-    box-sizing: border-box;
-    background: #333;
-    color: #fff;
-}*/
-
-/*.slide:nth-of-type(1) {
-    background: red;
-}
-.slide:nth-of-type(2) {
-    background: orange;
-}
-.slide:nth-of-type(3) {
-    background: green;
-}
-.slide:nth-of-type(4) {
-    background: blue;
-}
-.slide:nth-of-type(5) {
-    background: purple;
-}*/
-
-
 /* CONTENT 1*/
 .content1 {
   background-color: rgba(0,0,0,0.24);
@@ -150,4 +125,49 @@ body {
   left: 50%;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
+}
+.content2 {
+  background-color: rgba(0,0,0,0.24);
+  border: 3px solid grey;
+  padding: 50px;
+  margin: 200px;
+  text-align: center;
+}
+.container .heading h2 {
+  text-align: center;
+  font-size: 50px;
+}
+#education {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 70%;
+    margin: 0 auto;
+}
+
+#education td, #education th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+#education tr:nth-child(even) {
+  background-color: rgba(180, 228, 198, 0.36);
+}
+#education tr:nth-child(odd) {
+  background-color: rgba(180, 228, 198, 0.36);
+}
+
+#education tr:hover {
+  background-color: #ddd;
+}
+
+#education th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: rgba(50, 139, 83, 0.83);
+    color: white;
+}
+.container .heading2 h2 {
+  text-align: center;
+  font-size: 50px;
 }

@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Home</title>
+    <title>About</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" href="..\css\about.css">
@@ -131,16 +131,65 @@
           </div>
         </div>
       </section>
-<script>
-var slides = document.querySelectorAll('#slides .slide');
-var currentSlide = 0;
-var slideInterval = setInterval(nextSlide,2000);
+      <!-- SECTION 4 -->
+      <section>
+        <div class="container">
+          <div class="row">
+            <div class="content2">
+              <div class="heading">
+                <h2>I've worked with Top Brands</h2>
+                <div class="paragraph">
+                  <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
 
-function nextSlide() {
-    slides[currentSlide].className = 'slide';
-    currentSlide = (currentSlide+1)%slides.length;
-    slides[currentSlide].className = 'slide showing';
-}
+      <!-- EDUCATION TABLE -->
+      <div class="container">
+        <div class="heading2">
+          <h2>Education</h2>
+        </div>
+        <table id="education">
+          <tr>
+            <th>School/University</th>
+            <th>Field of Study</th>
+            <th>Year Attended</th>
+          </tr>
+          <tr>
+            <td>Early College Alliance: Eastern Michigan University</td>
+            <td>General Education</td>
+            <td>2014-2017</td>
+          </tr>
+          <tr>
+            <td>Sichuan University</td>
+            <td>Study Abroad</td>
+            <td>2016</td>
+          </tr>
+          <tr>
+            <td>Grand Circus</td>
+            <td>Java Bootcamp</td>
+            <td>2017</td>
+          </tr>
+          <tr>
+            <td>Grand Valley State University</td>
+            <td>Computer Science</td>
+            <td>Current</td>
+          </tr>
+        </table>
+      </div>
+<script>
+  var slides = document.querySelectorAll('#slides .slide');
+  var currentSlide = 0;
+  var slideInterval = setInterval(nextSlide,2000);
+
+  function nextSlide() {
+      slides[currentSlide].className = 'slide';
+      currentSlide = (currentSlide+1)%slides.length;
+      slides[currentSlide].className = 'slide showing';
+    }
 </script>
 
   </body>
