@@ -171,3 +171,36 @@ body {
   text-align: center;
   font-size: 50px;
 }
+.content3 {
+  background-color: rgba(0,0,0,0.24);
+  border: 3px solid grey;
+  padding: 50px;
+  margin: 200px;
+  text-align: center;
+}
+.container .heading3 h2 {
+  text-align: center;
+  font-size: 50px;
+}
+.content4 {
+  background-color: rgba(0,0,0,0.24);
+  border: 3px solid grey;
+  padding: 50px;
+  margin: 200px;
+  text-align: center;
+}
+.container .heading4 h2 {
+  text-align: center;
+  font-size: 50px;
+}
+.content5 {
+  background-color: rgba(0,0,0,0.24);
+  border: 3px solid grey;
+  padding: 50px;
+  margin: 200px;
+  text-align: center;
+}
+.container .heading5 h2 {
+  text-align: center;
+  font-size: 50px;
+}
