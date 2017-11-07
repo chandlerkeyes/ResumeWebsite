@@ -31,6 +31,8 @@ p {
 #section1 h3{
   text-align: center;
   font-family: 'Pacifico', cursive;
+  color: rgba(194, 194, 194, 1);
+  text-shadow: 2px 4px rgba(56, 56, 56, 0.71);
 }
 #section1 .col-md-4 p {
   font-family: 'Lora', serif;
@@ -69,6 +71,10 @@ p {
   margin: 150px;
   padding: 100px;
   text-align: center;
+}
+#section2 h2 {
+  color: rgba(194, 194, 194, 1);
+  font-family: 'Poiret One', cursive;
 }
 .col-sm-4 img {
   width: 300px;
@@ -188,6 +194,10 @@ p {
   margin: 200px;
   text-align: center;
 }
+.content3 h2 {
+  color: rgba(194, 194, 194, 1);
+  font-family: 'Poiret One', cursive;
+}
 /* CODE PEN IMAGE SLIDER*/
 @-webkit-keyframes spin {
   from {-webkit-transform:rotateY(0); }
@@ -258,6 +268,10 @@ display:inline;
   text-align: center;
   color: pink;
 }
+#codingChannel  h1 {
+  font-family: 'Pacifico', cursive;
+  text-shadow: 2px 4px rgba(0, 0, 0, 0.65);
+}
 #codingChannel p {
   font-size: 20px;
   color: white;
@@ -270,12 +284,20 @@ display:inline;
   margin: 200px;
   text-align: center;
 }
+.content4 h2 {
+  color: rgba(194, 194, 194, 1);
+  font-family: 'Poiret One', cursive;
+}
 .content5 {
   background-color: rgba(0,0,0,0.24);
   border: 3px solid grey;
   padding: 50px;
   margin: 200px;
   text-align: center;
+}
+.content5 h2 {
+  color: rgba(194, 194, 194, 1);
+  font-family: 'Poiret One', cursive;
 }
 
 /* CSS FOR FOOTER - TAKEN FROM BOOTSTRAP TEMPLATE */

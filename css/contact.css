@@ -8,9 +8,15 @@ body {
 .jumbotron {
   background-color: rgba(147, 138, 139, 0.0) !important;
 }
-.text {
+.text p{
   text-align: center;
   color: white;
+}
+.text h1 {
+  font-family: 'Pacifico', cursive;
+  text-align: center;
+  color: rgba(199, 199, 199, 1) !important;
+  text-shadow: 2px 3px rgba(82, 82, 82, 0.83);
 }
 #contact {
   width:100%;
