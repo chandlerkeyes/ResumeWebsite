@@ -7,7 +7,7 @@ body {
 }
 .button {
     position: relative;
-    background-color: rgba(198, 88, 91, 0.83); /* Green */
+    background-color: rgba(236, 141, 160, 0.63);
     border: none;
     color: white;
     padding: 15px 32px;
@@ -17,6 +17,7 @@ body {
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
+    font-family: 'Fira Sans Condensed', sans-serif;
     margin: 4px 2px;
     cursor: pointer;
     -webkit-transition-duration: 0.4s; /* Safari */
@@ -34,13 +35,23 @@ body {
   display: flex;
   align-items: center;
 }
+
 .text-overlay {
   text-align: center;
   opacity: 1;
   padding-top: 130px;
   color: white;
   font-size: 40px;
+  font-family: 'Fira Sans Condensed', sans-serif;
 }
+.text-overlay:hover {
+  text-shadow: 2px 4px rgba(0, 0, 0, 0.63);
+  font-size: 45px;
+}
+.text-overlay:active {
+  color: pink;
+}
+
 .image-1 {
   background-image: url(../images/MyWebsite3.jpg);
   background-size: cover;
