@@ -7,10 +7,14 @@ body {
 }
 .jumbotron {
   background-color: rgba(147, 138, 139, 0.5) !important;
-}
-.text {
   text-align: right;
-  color: white;
+}
+.jumbotron p {
+  text-align: right;
+}
+.container h1 {
+  font-size: 60px;
+  text-align: center;
 }
 #section1 h1, p {
   color: white;
@@ -38,6 +42,7 @@ body {
     -o-transition: opacity 1s;
     transition: opacity 1s;
 }
+
 
 .showing {
     opacity: 1;
@@ -133,10 +138,6 @@ body {
   margin: 200px;
   text-align: center;
 }
-.container .heading h2 {
-  text-align: center;
-  font-size: 50px;
-}
 #education {
     font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
     border-collapse: collapse;
@@ -167,20 +168,12 @@ body {
     background-color: rgba(50, 139, 83, 0.83);
     color: white;
 }
-.container .heading2 h2 {
-  text-align: center;
-  font-size: 50px;
-}
 .content3 {
   background-color: rgba(0,0,0,0.24);
   border: 3px solid grey;
   padding: 50px;
   margin: 200px;
   text-align: center;
-}
-.container .heading3 h2 {
-  text-align: center;
-  font-size: 50px;
 }
 .content4 {
   background-color: rgba(0,0,0,0.24);
@@ -189,10 +182,6 @@ body {
   margin: 200px;
   text-align: center;
 }
-.container .heading4 h2 {
-  text-align: center;
-  font-size: 50px;
-}
 .content5 {
   background-color: rgba(0,0,0,0.24);
   border: 3px solid grey;
@@ -200,7 +189,144 @@ body {
   margin: 200px;
   text-align: center;
 }
-.container .heading5 h2 {
-  text-align: center;
-  font-size: 50px;
+
+/* CSS FOR FOOTER - TAKEN FROM BOOTSTRAP TEMPLATE */
+#myFooter {
+    background-color: rgba(34, 7, 33, 1);
+    color: white;
+    padding-top: 20px;
+}
+
+#map-container {
+    height: 240px;
+    width: 100%;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+#myFooter .row {
+    margin: 0 85px;
+}
+
+#myFooter .footer-copyright {
+    background-color: #10222e;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    text-align: center;
+}
+
+#myFooter .footer-copyright p {
+    margin: 10px;
+    color: #ccc;
+}
+
+#myFooter .container {
+    width: auto;
+}
+
+#myFooter ul {
+    list-style-type: none;
+    padding-left: 0;
+    line-height: 1.7;
+}
+
+#myFooter h5 {
+    font-size: 18px;
+    color: white;
+    font-weight: bold;
+    margin-top: 30px;
+}
+
+#myFooter a {
+    color: #d2d1d1;
+    text-decoration: none;
+}
+
+#myFooter a:hover,
+#myFooter a:focus {
+    text-decoration: none;
+    color: white;
+}
+
+#myFooter .social-networks {
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 38px;
+}
+
+#myFooter .fa {
+    font-size: 30px;
+    margin-right: 15px;
+    margin-left: 20px;
+    background-color: white;
+    color: #182c39;
+    border-radius: 51%;
+    padding: 10px;
+    height: 50px;
+    width: 50px;
+    text-align: center;
+    line-height: 31px;
+    text-decoration: none;
+    transition: color 0.2s;
+}
+
+#myFooter .fa-facebook:hover {
+    color: #2b55ff;
+}
+
+#myFooter .fa-facebook:focus {
+    color: #2b55ff;
+}
+
+#myFooter .fa-google-plus:hover {
+    color: red;
+}
+
+#myFooter .fa-google-plus:focus {
+    color: red;
+}
+
+#myFooter .fa-twitter:hover {
+    color: #00aced;
+}
+
+#myFooter .fa-twitter:focus {
+    color: #00aced;
+}
+
+@media screen and (max-width: 767px) {
+    #myFooter {
+        text-align: center;
+    }
+    #myFooter .row {
+        margin: 0;
+    }
+}
+
+
+
+/* CSS used for positioning the footers at the bottom of the page. */
+/* You can remove this. */
+
+html{
+    height: 100%;
+}
+
+body{
+    display: flex;
+    display: -webkit-flex;
+    flex-direction: column;
+    -webkit-flex-direction: column;
+    height: 100%;
+}
+
+.content{
+   flex: 1 0 auto;
+   -webkit-flex: 1 0 auto;
+   min-height: 200px;
+}
+
+#myFooter{
+   flex: 0 0 auto;
+   -webkit-flex: 0 0 auto;
 }
