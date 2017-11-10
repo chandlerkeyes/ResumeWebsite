@@ -172,6 +172,9 @@ p {
   border-radius: 50%;
   height: 150px;
 }
+#promote .col-sm-3:hover {
+  background-color: gray;
+}
 #promote .col-sm-3 h4 {
   text-align: center;
   margin-top: 55px;
@@ -192,6 +195,10 @@ p {
 #education td, #education th {
     border: 1px solid #ddd;
     padding: 40px;
+}
+#education td {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  color: white;
 }
 
 #education tr:nth-child(even) {
@@ -214,7 +221,7 @@ p {
 .content3 {
   background-color: rgba(0,0,0,0.24);
   border: 3px solid grey;
-  padding: 50px;
+  padding: 10px 10px 70px 25px;
   margin: 200px;
   text-align: center;
 }
@@ -222,6 +229,15 @@ p {
   color: rgba(194, 194, 194, 1);
   font-family: 'Poiret One', cursive;
 }
+.content3 h3 {
+  color: pink;
+  font-family: 'Pacifico', cursive;
+  text-shadow: 2px 2px black;
+}
+.content3 h3:hover {
+  -webkit-transform: scale(1.2);
+}
+
 /* CODE PEN IMAGE SLIDER*/
 @-webkit-keyframes spin {
   from {-webkit-transform:rotateY(0); }
