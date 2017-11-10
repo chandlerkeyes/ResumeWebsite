@@ -1,5 +1,5 @@
 body {
-  background-image: url(../images/aboutBackground.JPG);
+  background-image: url(aboutBackground.JPG);
   background-size: cover;
   background-attachment: fixed;
   background-position: center;
@@ -76,6 +76,14 @@ p {
   color: rgba(194, 194, 194, 1);
   font-family: 'Poiret One', cursive;
 }
+#section2 .col-sm-6 h2{
+  text-align: center;
+  font-size: 30px;
+  color: pink;
+}
+#section2 img {
+  width: 100px;
+}
 .col-sm-4 img {
   width: 300px;
   height: 250px;
@@ -151,12 +159,28 @@ p {
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
 }
-.content2 {
+#promote .row{
   background-color: rgba(0,0,0,0.24);
   border: 3px solid grey;
   padding: 50px;
   margin: 200px;
   text-align: center;
+}
+#promote .col-sm-3 {
+  background-color: pink;
+  border: 2px solid white;
+  border-radius: 50%;
+  height: 150px;
+}
+#promote .col-sm-3 h4 {
+  text-align: center;
+  margin-top: 55px;
+  position: relative;
+  font-family: 'Pacifico', cursive;
+}
+#promote h3 {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  color: grey;
 }
 #education {
     font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
@@ -235,7 +259,7 @@ display:inline;
 }
 
 .p1 {
-  background-image: url("../images/Snapshot_17.png");
+  background-image: url("Snapshot_17.png");
   background-repeat: no-repeat;
   background-size: cover;
   -webkit-transform: rotateY(90deg) translateZ(200px);
@@ -243,14 +267,14 @@ display:inline;
   }
 .p2 {
   -webkit-transform: rotateY(180deg) translateZ(200px);
-  background-image: url("../images/Snapshot_19.png");
+  background-image: url("Snapshot_19.png");
   background-repeat: no-repeat;
   background-size: cover;
   width: 180%;
 }
 
 .p3 {
-  background-image: url("../images/Snapshot_40.png");
+  background-image: url("Snapshot_40.png");
   background-repeat: no-repeat;
   background-size: cover;
   -webkit-transform: rotateY(270deg) translateZ(200px);
@@ -258,7 +282,7 @@ display:inline;
 }
 
 .p4 {
-  background-image: url("../images/Snapshot_44.png");
+  background-image: url("Snapshot_44.png");
   background-repeat: no-repeat;
   background-size: cover;
   -webkit-transform: rotateY(360deg) translateZ(200px);
